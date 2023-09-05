@@ -1,0 +1,19 @@
+03-30 10:14:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CRETAE[*] TABLE ALUNOS(
+MATRICULA LONG AUTO_INCREMENT,
+NOME VARCHAR(100),
+IDADE INT,
+CURSO VARCHAR(50),
+CIDADE VARCHAR(50),
+ENDERECO VARCHAR(100),
+TELEFONE VARCHAR(20),
+PRIMARY KEY(MATRICULA)) "; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT, {"; SQL statement:
+cretae table Alunos(
+matricula long auto_increment,
+nome varchar(100),
+idade int,
+curso varchar(50),
+cidade varchar(50),
+endereco varchar(100),
+telefone varchar(20),
+primary key(matricula)) [42001-185]
